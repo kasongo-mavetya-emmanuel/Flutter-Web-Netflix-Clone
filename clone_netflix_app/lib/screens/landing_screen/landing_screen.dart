@@ -7,6 +7,7 @@ import 'package:flutter/material.dart';
 
 class LandingScreen extends StatefulWidget
 {
+  static const String routeName='/landing';
   const LandingScreen({Key? key}) : super(key: key);
 
   @override
@@ -40,7 +41,7 @@ class _LandingScreenState extends State<LandingScreen> {
         Size( MediaQuery.of(context).size.width, 80),
       child: CustomizedAppBar()),
       body: pages[_currentIndex],
-        bottomNavigationBar: BottomNavigationBar(
+         bottomNavigationBar: !Responsive.isDesktop(context)? BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
         currentIndex: _currentIndex,
         showUnselectedLabels: true,
@@ -65,7 +66,7 @@ class _LandingScreenState extends State<LandingScreen> {
               label: 'More',
               icon: Icon(Icons.menu)),
         ],
-      ),
+      ): null,
 
     );
   }

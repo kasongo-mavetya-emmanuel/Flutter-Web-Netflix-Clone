@@ -8,6 +8,7 @@ import 'package:provider/provider.dart';
 
 import '../../widgets/appBar.dart';
 import '../../widgets/background_header_image.dart';
+import '../landing_screen/landing_screen.dart';
 import 'components/payment_plans.dart';
 
 class PaymentScreen extends StatefulWidget {
@@ -40,7 +41,7 @@ class _PaymentScreenState extends State<PaymentScreen> {
     if(subscription.subscriptionStatus== SubscriptionStatus.subscribed){
       print('bbbbbbbbbbbbbbbbbbbbbbbbbbbbb${subscription.subscriptionStatus}');
       WidgetsBinding.instance!.addPostFrameCallback((_) {
-        Navigator.pushNamed(context, HomePage.routeName);
+        Navigator.pushNamed(context,  LandingScreen.routeName);
       });
 
     }

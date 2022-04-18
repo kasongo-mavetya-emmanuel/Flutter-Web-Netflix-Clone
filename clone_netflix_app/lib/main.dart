@@ -9,6 +9,7 @@ import 'package:clone_netflix_app/repository/auth_repository.dart';
 import 'package:clone_netflix_app/repository/product_repository.dart';
 import 'package:clone_netflix_app/repository/subscription_repository.dart';
 import 'package:clone_netflix_app/screens/home_screen/home_screen.dart';
+import 'package:clone_netflix_app/screens/landing_screen/landing_screen.dart';
 import 'package:clone_netflix_app/screens/payment_screen/payment_screen.dart';
 import 'package:clone_netflix_app/screens/registration_screens/signin_screen.dart';
 import 'package:clone_netflix_app/screens/registration_screens/signup_screen.dart';
@@ -72,7 +73,7 @@ class MyApp extends StatelessWidget {
         ),
         initialRoute: WelcomeScreen.routeName,
         routes: {
-          HomePage.routeName:(context)=> HomePage(),
+          LandingScreen.routeName:(context)=> LandingScreen(),
           WelcomeScreen.routeName: (context) => WelcomeScreen(),
           SignInScreen.routeName: (context)=> SignInScreen(),
           SignUpScreen.routeName:(context)=> SignUpScreen(),
