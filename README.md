@@ -1,6 +1,6 @@
 # Netflix-Clone
 
-Netflix clone with flutter web, subscription payment using firebase stripe payment extension, state management provider
+Responsive Netflix clone with flutter web, subscription payment using firebase stripe payment extension, state management provider
 
 ## Demo
 
