@@ -4,7 +4,7 @@ Responsive Netflix clone with flutter web, subscription payment using firebase s
 
 ## Demo
 
-[Document](https://www.youtube.com/watch?v=4Q6YL69b0B0)
+[Open Demo video](https://www.youtube.com/watch?v=4Q6YL69b0B0)
 
 
 
