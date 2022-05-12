@@ -1,5 +1,12 @@
-<<<<<<< HEAD
-# Netflix-Clone"# Clone-Netflix" 
-=======
 # Netflix-Clone
->>>>>>> ac3fd5af19fed9de53b734a536c39f4b7a230a67
+
+Netflix clone with flutter web, subscription payment using firebase stripe payment extension, state management provider
+
+## Demo
+
+Insert gif or link to demo
+
+[Document]("https://www.youtube.com/watch?v=4Q6YL69b0B0")
+
+
+
